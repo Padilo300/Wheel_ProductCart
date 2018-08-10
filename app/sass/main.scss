@@ -1,0 +1,51 @@
+.page-product {
+    .wrap-img{
+        overflow: hidden;
+        height: 50vh;
+        img{
+            height: 500px;
+            transform: translate(-20%, 26%);
+        }
+        i{
+            top: 17%;
+            left: 3%;
+            color: #f00;
+            position: absolute;
+            font-size: 3em;
+        }
+    } 
+    h1.name{
+        font-size: 1.8em;
+    
+    }
+    .container_price{
+        @media screen and (min-width: 1169px) {
+            margin: 100px 0 0 0;
+        }
+    }
+    #accordion{
+        margin: 30px 0;
+    }
+    table.price{
+        width: 100%;
+        tr{
+            padding: 10px 0;
+            td{
+                text-align: center;
+                &.buy{
+                    background-color: #f00;
+                    border-radius: 8px;
+                    color: #fff;
+                    
+                }
+            }
+        }
+    }
+    .container_info_accordion{
+        a[data-toggle="collapse"]{
+            i{
+                color: #f00;
+            }
+        }
+    }
+}
